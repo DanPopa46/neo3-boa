@@ -38,6 +38,7 @@ class Interop:
         return lst
 
     # Interop Types
+    CallFlagsType = CallFlagsType()
     ContractType = ContractType.build()
     Iterator = IteratorType.build()
     NotificationType = NotificationType.build()
@@ -123,6 +124,7 @@ class Interop:
                                     GetContract
                                     ],
         InteropPackage.Contract: [CallContract,
+                                  CallFlagsType,
                                   ContractType,
                                   CreateContract,
                                   DestroyContract,

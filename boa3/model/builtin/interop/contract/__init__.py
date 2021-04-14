@@ -1,4 +1,5 @@
-__all__ = ['CallMethod',
+__all__ = ['CallFlagsType',
+           'CallMethod',
            'ContractType',
            'CreateMethod',
            'DestroyMethod',
@@ -8,6 +9,7 @@ __all__ = ['CallMethod',
            'UpdateMethod'
            ]
 
+from boa3.model.builtin.interop.contract.callflagstype import CallFlagsType
 from boa3.model.builtin.interop.contract.callmethod import CallMethod
 from boa3.model.builtin.interop.contract.contracttype import ContractType
 from boa3.model.builtin.interop.contract.createmethod import CreateMethod
